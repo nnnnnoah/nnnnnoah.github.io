@@ -73,6 +73,11 @@ body {
   outline: 0 !important;
 }
 
+.grey{
+  color:#777;
+}
+
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -83,6 +88,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
 
 p {
   margin-top: 0;
@@ -2082,6 +2094,29 @@ textarea.form-control {
 .was-validated .custom-control-input:valid ~ .valid-tooltip, .custom-control-input.is-valid ~ .valid-feedback,
 .custom-control-input.is-valid ~ .valid-tooltip {
   display: block;
+}
+.chooseFile {
+  background-color: #024c70;
+  color: white;
+  padding: 0.5rem;
+  font-family: 'Century Gothic', Arial;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.chooseFile:hover{
+  background-color:#036a9e;
+}
+
+#file-chosen{
+  margin-left: 0.3rem;
+  font-family: 'Century Gothic', Arial;
+}
+
+.font-styling{
+  font-family:'Century Gothic', Arial;
+  font-weight: 600;
 }
 
 .was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
@@ -8771,6 +8806,10 @@ button.bg-dark:focus {
 
 .text-center {
   text-align: center !important;
+}
+
+.red{
+  color:red;
 }
 
 @media (min-width: 576px) {
